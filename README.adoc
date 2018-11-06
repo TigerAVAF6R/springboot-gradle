@@ -1,4 +1,4 @@
-:spring_version: current
+:spring_version: current111
 :toc:
 :project_id: gs-rest-service
 :spring_version: current
