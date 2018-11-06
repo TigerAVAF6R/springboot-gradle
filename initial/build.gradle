@@ -14,10 +14,12 @@ apply plugin: 'org.springframework.boot'
 apply plugin: 'io.spring.dependency-management'
 apply plugin: 'war'
 
-bootJar {
-    baseName = 'gs-rest-service'
-    version =  '0.1.0'
-}
+webAppDirName = 'WebContent' 
+
+//bootJar {
+ //   baseName = 'gs-rest-service'
+ //   version =  '0.1.0'
+//}
 
 repositories {
     mavenCentral()
